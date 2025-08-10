@@ -19,11 +19,6 @@ document.addEventListener('DOMContentLoaded', function(){
     const sc = window.scrollY;
     if(hero) hero.style.transform = `translateY(${sc * 0.06}px)`;
   });
-
-
-  document.getElementById('contact2').addEventListener('submit', function(e){
-    //this.reset();
-  });
 });
 
 

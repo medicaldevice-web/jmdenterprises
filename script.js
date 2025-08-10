@@ -22,7 +22,7 @@ document.addEventListener('DOMContentLoaded', function(){
 
 
   document.getElementById('contact2').addEventListener('submit', function(e){
-    this.reset();
+    //this.reset();
   });
 });
 
